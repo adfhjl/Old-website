@@ -1,0 +1,45 @@
+body {background-image: url(Afbeeldingen/MatrixNumbers.jpg)}
+
+h1 {text-align: center}
+
+p {line-height: 25px}
+
+.CBoxInhoud ul {line-height: 20px}
+
+.CBoxInhoud {padding-left: 25px;
+            padding-right: 25px}
+
+.CBox {border: 3px solid rgb(20, 104, 20);
+        margin-left: 20%;
+        margin-right: 20%;
+        background: grey;
+        color: white}
+
+.CNavbar {padding: 20px}
+
+.CNavbar ul {list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background-color: lightgray;
+    border: 1px solid black}
+    
+.CNavbar li {text-align: center;
+    float: left;
+    border-right: 1px black solid}
+
+.CNavbar li a {display: block;
+    color: black;   
+    padding: 14px 16px;
+    text-decoration: none}
+    
+.CNavbar li a.active {background-color: green;
+    color: white}
+
+.CNavbar li a:hover:not(.active) {
+        background-color: gray;
+        color: black}
