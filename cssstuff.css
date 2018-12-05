@@ -1,21 +1,22 @@
-body {background-image: url(Afbeeldingen/MatrixNumbers.jpg)}
+body {background-image: url(Afbeeldingen/MatrixNumbers.jpg);}
 
-h1 {text-align: center}
+h1 {text-align: center;}
 
-p {line-height: 25px}
+p {line-height: 25px;}
 
-.CBoxInhoud ul {line-height: 20px}
+.CBoxInhoud ul {line-height: 20px;}
 
 .CBoxInhoud {padding-left: 25px;
-            padding-right: 25px}
+            padding-right: 25px;
+            padding-bottom: 20px;}
 
 .CBox {border: 3px solid rgb(20, 104, 20);
         margin-left: 20%;
         margin-right: 20%;
         background: grey;
-        color: white}
+        color: white;}
 
-.CNavbar {padding: 20px}
+.CNavbar {padding: 20px;}
 
 .CNavbar ul {list-style-type: none;
     margin: 0;
@@ -26,20 +27,20 @@ p {line-height: 25px}
     left: 0;
     overflow: hidden;
     background-color: lightgray;
-    border: 1px solid black}
-    
+    border: 1px solid black;}
+
 .CNavbar li {text-align: center;
     float: left;
-    border-right: 1px black solid}
+    border-right: 1px black solid;}
 
 .CNavbar li a {display: block;
-    color: black;   
+    color: black;
     padding: 14px 16px;
-    text-decoration: none}
-    
+    text-decoration: none;}
+
 .CNavbar li a.active {background-color: green;
-    color: white}
+    color: white;}
 
 .CNavbar li a:hover:not(.active) {
         background-color: gray;
-        color: black}
+        color: black;}
