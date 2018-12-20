@@ -13,6 +13,7 @@ p {line-height: 25px;}
 .CBox {border: 3px solid rgb(20, 104, 20);
         margin-left: 20%;
         margin-right: 20%;
+        margin-top: 8px;
         background: grey;
         color: white;}
 
